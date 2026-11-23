@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Photography portfolio of Sebastian Bennett. Explore studio portraits, fashion editorials and creative direction.">
+<title>Sebastian Bennett — Photography Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header class="top" id="top">
+  <div class="wrap nav"><a class="brand" href="#top">SB<span>.</span></a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#work">Projects</a><a href="#contact">Contact ↗</a></nav></div>
+</header>
+<main>
+  <section class="hero wrap" aria-labelledby="title">
+    <div class="hero-art"><p><strong>Sebastian Bennett</strong><br>Independent photographer</p><img src="assets/camera.webp" alt="Halftone collage of hands holding a camera, with cobalt-blue accents" width="352" height="238"></div>
+    <div class="hero-copy"><p class="eyebrow">Photographer &amp; creative direction</p><h1 id="title">Creative<br><span>Portfolio</span></h1><p>Studio portraits and fashion stories built around gesture, light, and the details that make an image feel personal.</p><a class="pill blue" href="#work">Explore the projects <span aria-hidden="true">↘</span></a></div>
+  </section>
+  <section class="panel wrap about" id="about">
+    <div><h2>Personal <span>Introduction</span></h2><p>I’m Sebastian, a photographer interested in the quiet moments between poses. I work with small teams to develop a visual idea, shape the light, and carry a consistent point of view through to the final edit.</p></div>
+    <div class="about-photos"><img src="assets/about.webp" alt="Photographer arranging images on a studio wall" loading="lazy"><img src="assets/portrait.webp" alt="Portrait framed by a foreground silhouette" loading="lazy"></div>
+  </section>
+  <section class="panel wrap split" aria-label="Creative practice and career">
+    <div><h2>Creative <span>Skills</span></h2><ul class="skills"><li>Studio photography</li><li>Visual storytelling</li><li>Photo editing</li><li>Creative direction</li><li>Lighting design</li><li>Concept development</li></ul></div>
+    <div><h2>Career <span>Background</span></h2><dl><dt>Independent photography</dt><dd>Portrait and fashion projects from early moodboards to the final selection.</dd><dt>Studio production</dt><dd>Collaborative shoots that bring styling, composition and lighting together.</dd></dl></div>
+  </section>
+  <section id="work" class="work">
+    <div class="wrap"><h2>Selected <span>Projects</span></h2>
+    <div class="project-grid">
+      <article class="project"><div class="collage"><img src="assets/studio-one.webp" alt="Photographer taking a mirror portrait" loading="lazy"><img src="assets/studio-two.webp" alt="Studio team beside a light stand" loading="lazy"><img src="assets/studio-three.webp" alt="Camera resting on a studio worktable" loading="lazy"></div><div class="project-copy"><p class="eyebrow">Studio portraiture</p><h3>Between Takes</h3><p>A behind-the-scenes portrait series about the people and pauses that shape a studio shoot.</p><a class="pill" href="assets/studio-one.webp" data-gallery>View project <span aria-hidden="true">↗</span></a></div></article>
+      <article class="project"><div class="collage"><img src="assets/form-one.webp" alt="Stylist preparing a model for a fashion shoot" loading="lazy"><img src="assets/form-two.webp" alt="Photographer shooting a model in a cream outfit" loading="lazy"><img src="assets/form-three.webp" alt="Neutral fabrics stacked for a styling detail" loading="lazy"></div><div class="project-copy"><p class="eyebrow">Fashion editorial</p><h3>Soft Form</h3><p>A study of neutral fabrics, clean silhouettes, and the movement that makes them interesting.</p><a class="pill" href="assets/form-one.webp" data-gallery>View project <span aria-hidden="true">↗</span></a></div></article>
+      <article class="project"><div class="collage"><img src="assets/light-one.webp" alt="Photographer in a bright studio with wooden props" loading="lazy"><img src="assets/light-two.webp" alt="Seated portrait near a studio light stand" loading="lazy"><img src="assets/light-three.webp" alt="Photographer raising a camera during a shoot" loading="lazy"></div><div class="project-copy"><p class="eyebrow">Lighting study</p><h3>Room for Light</h3><p>A minimal set exploring how the direction of light changes the mood of a portrait.</p><a class="pill" href="assets/light-one.webp" data-gallery>View project <span aria-hidden="true">↗</span></a></div></article>
+    </div></div>
+  </section>
+  <section class="panel wrap highlights"><img src="assets/detail.webp" alt="Close-up from a beauty editorial" loading="lazy"><div><h2>Project <span>Highlights</span></h2><p><strong>Portraits in natural tones.</strong> A restrained color palette keeps attention on expression and gesture.</p><p><strong>Details in context.</strong> Close-ups bring fabric, styling and small movements into the story.</p></div></section>
+</main>
+<footer id="contact"><div class="wrap footer"><div><h2>Let’s <span>Talk</span></h2><p>Studio portraits, fashion editorials and creative collaborations.</p><p><small>Concept portfolio · Sample contact address</small></p></div><a class="pill blue" href="mailto:sebastian@example.com">sebastian@example.com ↗</a></div></footer>
+<dialog id="gallery" aria-labelledby="gallery-title">
+  <div class="dialog-head"><h2 id="gallery-title"></h2><form method="dialog"><button type="submit" aria-label="Close gallery">✕</button></form></div>
+  <figure><img id="gallery-image" alt=""><figcaption id="caption" aria-live="polite"></figcaption></figure>
+  <div class="gallery-nav"><button type="button" id="prev">← Previous</button><span id="counter"></span><button type="button" id="next">Next →</button></div>
+</dialog>
+</body>
+</html>
